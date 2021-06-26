@@ -111,3 +111,66 @@ let addmarks = Student.map(addmarks => {
     console.log(`NAME: ${addmarks.name} Stuednt id: ${addmarks.id} Mark: ${mar} City: ${addmarks.city}`);
 
 }); 
+
+
+
+
+
+
+console.log("add,sub,mul using arrow functions");
+let number1=103;
+let number2=301;
+const add=()=>number1+number2;
+const sub=()=>number2-number1;
+const mul=()=>number1*number2;
+console.log("103+301===",add());
+console.log("301-103===",sub());
+console.log("103*301===",mul());
+
+
+
+
+
+console.log("To check if string input is numeric")
+
+var val = 2345;
+g = isNaN(val);
+console.log(g);
+if (g == false) {
+    console.log("it is a number");
+}
+var val = "2345";
+g = isNaN(val);
+console.log(g);
+if (g == false) {
+    console.log("it is a number");
+}
+var val = "This is a string";
+g = isNaN(val);
+console.log(val + ' ' + g);
+if (g == false) {
+    console.log("it is a number");
+}
+
+
+
+
+
+
+
+console.log("Higher order component");
+
+function2=(v)=>v+"value";
+
+const valhoc=(dataval,func)=>{
+    let v=dataval +790;
+    return func(v);
+}
+let resulthoc=valhoc(10,function2);
+console.log(resulthoc);
+
+
+
+
+
+
