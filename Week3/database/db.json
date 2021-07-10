@@ -1,0 +1,25 @@
+{
+    "students":[
+        {
+            "name":"Gunaraman M",
+            "rollno": "001",
+            
+            "email":"guna@gmail.com",
+            "phone":"9988776655"
+        },
+        {
+            "name":"Gunaraman M",
+            "rollno": "001",
+            
+            "email":"guna@gmail.com",
+            "phone":"9988776655"
+        },
+        {
+            "name":"Gunaraman M",
+            "rollno": "001",
+            
+            "email":"guna@gmail.com",
+            "phone":"9988776655"
+        }
+    ]
+}
